@@ -1,0 +1,11 @@
+#React.vim
+
+## Some useful tools for working with react
+
+### Work in progress..
+
+
+currently, just have a way to preview JSX compilation of a visual selection in preview window.
+
+This can be triggered with command :JSXC, or with mapping 'jc' 
+'cp' to close preview window.
