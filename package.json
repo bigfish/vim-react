@@ -1,0 +1,18 @@
+{
+  "name": "vim-react",
+  "version": "0.0.0",
+  "description": "vim react tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vim",
+    "react"
+  ],
+  "author": "David Wilhelm",
+  "license": "MIT",
+  "dependencies": {
+    "react-tools": "~0.12.2"
+  }
+}

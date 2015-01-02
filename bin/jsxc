@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+
+process.stdin.setEncoding('utf8');
+
+var reactTools = require('react-tools');
+var input = '';
+
+process.stdin.on('readable', function() {
+  var chunk = process.stdin.read();
+  if (chunk !== null) {
+    input += chunk;
+  }
+});
+
+process.stdin.on('end', function() {
+  var output = reactTools.transform(input);
+  process.stdout.write(output);
+});
